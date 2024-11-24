@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- I am using English Language-->
+<html lang="en">
+<head>
+    <!-- This is the title of my website-->
+<title>Serwaa Kesse Senior High School</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Emmanue Preko Boamah"
+<meta name="description" content="This is my frist website html page for learning html at Gift-Tech Solutions.">
+<meta name="keywords" content="HTML, CSS, School, Website, Ghana, JavaScript">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}   
+header {
+    background: #005f73;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px
+} 
+header p {
+    font-size: 1.2rem;
+}
+nav {
+    background: #0a9396;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 15px;
+    font-size: 1rem;
+}
+nav a:hover {
+    background: #94d2bd;
+    color: #005f73;
+    border-radius: 5px;
+}
+.dropdown {
+   position: relative;
+    display: inline-block; 
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #0a9396;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 150px;
+    z-index: 1;
+}
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+.dropdown-menu a:hover {
+    background-color: #94d2bd;
+    color: #005f73;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.hero h2 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px #000;
+}
+</style>
+</head>
+<!-- the main body starts here-->
+<body>
+    <!--Add header-->
+
+<header>
+<h1>Serwaa Kesse Senior High School </h1>
+<p>Duayaw Nkwanta, Ahafo Region, Ghana</p>
+</header>
+<!-- menu nav start here-->
+<nav>
+    <a href="">Home</a>
+    <a href="pages/about.html">About Us</a>
+    <div class="dropdown">
+        <a href="pages/Academics.html">Academics</a>
+        <div class="dropdown-menu">
+            <a href="pages/Admission.html">Admission</a>
+            <a href="pages/Cohort.html">Cohort</a>
+            <a href="pages/pta.html">PTA</a>
+            <a href="pages/stem.html">STEM</a>
+        </div>
+    </div>
+   <div class="dropdown">
+    <a href="pages/Houses.html">Houses</a>
+    <div class="dropdown-menu">
+        <a href="pages/src.html">SRC</a>
+        <a href="pages/clubs.html">Clubs</a>
+        <a href="pages/alumi.html">Alumi</a>
+        <a href="pages/sport.html">Sport</a>
+    </div>
+   </div>
+    <a href="pages/staff.html">Staff</a>
+    <a href="pages/Gallery.html">Gallery</a>
+    <a href="pages/archive.html">Archive</a>
+</nav>
+<!-- content of my website start here-->
+ <div class="hero">
+<h2>Empowering Young Minds for the Future</h2>
+ </div>
+    <footer>
+<p>&copy; 2024 My Website. All right reserved.</p>
+    </footer>
+</body>
+
+</html>
